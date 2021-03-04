@@ -1,0 +1,222 @@
+body{
+  background-color: black;
+  min-width: 900px;
+   display: flex;
+   justify-content: space-around;
+}
+.wrapper{
+  margin-top: 50px;
+  
+}
+.conteiner {
+ display: flex;
+ flex-direction: column;
+ position:relative;
+}
+.circleIcon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(227.8deg, #E2257D 13.8%, #FC9C0C 85.48%);
+  box-shadow: 0 0 30px rgba(219, 33, 135, 0.932);
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+  margin-top: 3px;
+  margin-left: 17px;
+  background: url(./K.png) no-repeat;
+  z-index: 2;
+}
+.head {
+  display: flex;
+ justify-content: space-between;
+}
+header {
+  display: flex;
+   justify-content: space-around;
+}
+.text {
+  margin-top: 17px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.text1 {
+font-size: 17px;
+color: #FFFFFF;
+font-family: Montserrat;
+text-align: left;
+}
+.text2{
+font-size: 17px;
+color: #FFFFFF;
+font-family: Montserrat;
+text-align: left;
+}
+.empty{
+  width: 850px;
+}
+
+span{
+  color:#FC9C0C;
+}
+.textStart{
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0.03em;
+text-align: left;
+margin-block-end: 20px;
+}
+.txt1 {
+  margin: 0px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.txt2{
+  margin: 0px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-block-end: 40px;
+}
+.but button{
+  border: 0;
+  margin-top: 20px;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  width: 220px;
+  height: 60px;
+  background: linear-gradient(274.87deg, #FC9C0C 19.55%, #E2257D 83.25%);
+  border-radius: 10px;
+}
+.but button:hover{
+  cursor: pointer;
+  color: #fff;
+   box-shadow: 0 0 30px rgba(219, 33, 135, 0.932);
+}
+.note {
+  position: relative;
+  z-index: 2;
+  width: 420px;
+  height: 212px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(21.3724px);
+  margin-top: 150px;
+  border-radius: 7.12413px;
+}
+.imgNote{
+background: url(./Saly-26.png) no-repeat;
+height: 150px;
+width: 150px;
+position: relative; ;
+ z-index: 2;
+ margin-left: 290px;
+margin-top: -185px;
+}
+.date{
+  color: gray;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.textbold{
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.textNote{
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 10px;
+  margin-left: 30px;
+}
+.circles{
+  display: flex;
+   position: relative;
+  margin-top: -15px;
+  margin-left: -27px;
+
+}
+.circle1 {
+  position: relative;
+  z-index: 1;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(227.8deg, #E2257D 13.8%, #FC9C0C 85.48%);
+  box-shadow: 0 0 30px rgba(219, 33, 135, 0.932);
+}
+.circle2 {
+  margin: 3px;
+  align-self:flex-end;
+ width: 30px;
+ height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(227.8deg, #E2257D 13.8%, #FC9C0C 85.48%);
+  box-shadow: 0 0 30px rgba(219, 33, 135, 0.932);
+}
+.circle3{
+  margin: 1px;
+  align-self:flex-end;
+  position: relative;
+  z-index: 1;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: linear-gradient(227.8deg, #E2257D 13.8%, #FC9C0C 85.48%);
+  box-shadow: 0 0 30px rgba(219, 33, 135, 0.932);
+}
+.content {
+  padding-left: 290px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  margin-top: 100px;
+}
+.imgBig{
+  display: block;
+  background: url(./Saly-1.png) no-repeat;
+  position: relative;
+  z-index: 3;
+  height: 850px;
+  width: 850px;
+  margin-left: 570px;
+  margin-top: -950px;
+  /* bottom: -3.61%; */
+}
